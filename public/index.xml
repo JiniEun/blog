@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jin</title>
+    <link>https://JiniEun.github.io/</link>
+    <description>Recent content on Jin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language><atom:link href="https://JiniEun.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>https://JiniEun.github.io/projects/</link>
+      <pubDate>Sat, 26 Mar 2022 00:49:03 +0900</pubDate>
+      
+      <guid>https://JiniEun.github.io/projects/</guid>
+      <description>MovieShelf (2022.02-) Molog (2022.02-) Dongne (2021.11-12) Petcare (2020.03-05) Dipex (2019.09-11) MovieShelfSpring Boot 기반 웹 프로젝트
+프로젝트 주제영화 검색 웹 페이지 제작
+StackJava, Springboot, React JS
+구현 기능Oracle Cloud DB를 연동하여 REST API 개발 회원 기능
+ Swagger TDD  MologShoppingSpring Boot 기반 웹 프로젝트
+프로젝트 주제쇼핑몰 형태, 기능의 웹 페이지 제작</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://JiniEun.github.io/contact/</link>
+      <pubDate>Fri, 25 Mar 2022 23:41:52 +0900</pubDate>
+      
+      <guid>https://JiniEun.github.io/contact/</guid>
+      <description>EunJin (김은진)&amp;ndash;
+Gmail | dev.ejin98@gmail.com
+Github
+Tistory Blog</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://JiniEun.github.io/aboutme/</link>
+      <pubDate>Fri, 25 Mar 2022 00:32:51 +0900</pubDate>
+      
+      <guid>https://JiniEun.github.io/aboutme/</guid>
+      <description>김은진Backend Developer
+사용자에게 필요한 서비스를 개발하기 위해 노력하는 백엔드 개발자 김은진입니다.
+핵심 역량 Java SpringBoot와 OracleDB, Naver Map API를 활용한 Backend Web 개발 경험 Java SpringBoot와 MySQL을 활용한 Backend Web 개발 경험 AWS의 EC2와 RDS를 활용한 클라우드 서버 구축 및 배포 경험 JavaScript와 React를 사용하는 Web 개발 경험 Java와 Google Firebase를 이용한 Andriod 개발 경험  자격증2021.06.02 정보처리기사</description>
+    </item>
+    
+  </channel>
+</rss>

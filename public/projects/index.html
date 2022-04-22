@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+
+    
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://cdn.jsdelivr.net/; prefetch-src 'self'; connect-src 'self' https://www.google-analytics.com;">
+
+    
+
+    <meta name="author" content="은진">
+    <meta name="description" content="MovieShelf (2022.02-) Molog (2022.02-) Dongne (2021.11-12) Petcare (2020.03-05) Dipex (2019.09-11) MovieShelfSpring Boot 기반 웹 프로젝트
+프로젝트 주제영화 검색 웹 페이지 제작
+StackJava, Springboot, React JS
+구현 기능Oracle Cloud DB를 연동하여 REST API 개발 회원 기능
+ Swagger TDD  MologShoppingSpring Boot 기반 웹 프로젝트
+프로젝트 주제쇼핑몰 형태, 기능의 웹 페이지 제작">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Projects"/>
+<meta name="twitter:description" content="MovieShelf (2022.02-) Molog (2022.02-) Dongne (2021.11-12) Petcare (2020.03-05) Dipex (2019.09-11) MovieShelfSpring Boot 기반 웹 프로젝트
+프로젝트 주제영화 검색 웹 페이지 제작
+StackJava, Springboot, React JS
+구현 기능Oracle Cloud DB를 연동하여 REST API 개발 회원 기능
+ Swagger TDD  MologShoppingSpring Boot 기반 웹 프로젝트
+프로젝트 주제쇼핑몰 형태, 기능의 웹 페이지 제작"/>
+
+    <meta property="og:title" content="Projects" />
+<meta property="og:description" content="MovieShelf (2022.02-) Molog (2022.02-) Dongne (2021.11-12) Petcare (2020.03-05) Dipex (2019.09-11) MovieShelfSpring Boot 기반 웹 프로젝트
+프로젝트 주제영화 검색 웹 페이지 제작
+StackJava, Springboot, React JS
+구현 기능Oracle Cloud DB를 연동하여 REST API 개발 회원 기능
+ Swagger TDD  MologShoppingSpring Boot 기반 웹 프로젝트
+프로젝트 주제쇼핑몰 형태, 기능의 웹 페이지 제작" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://JiniEun.github.io/projects/" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2022-03-26T00:49:03+09:00" />
+<meta property="article:modified_time" content="2022-03-26T00:49:03+09:00" />
+
+
+
+    <title>
+  Projects · Jin
+</title>
+
+    
+      <link rel="canonical" href="https://JiniEun.github.io/projects/">
+    
+
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.d9fddbffe6f27e69985dc5fe0471cdb0e57fbf4775714bc3d847accb08f4a1f6.css" integrity="sha256-2f3b/&#43;byfmmYXcX&#43;BHHNsOV/v0d1cUvD2Eesywj0ofY=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.002ee2378e14c7a68f1f0a53d9694ed252090987c4e768023fac694a4fc5f793.css" integrity="sha256-AC7iN44Ux6aPHwpT2WlO0lIJCYfE52gCP6xpSk/F95M=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    <meta name="generator" content="Hugo 0.97.3" />
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-auto">
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Jin
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/projects/">Projets</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="https://JiniEun.github.io/projects/">
+          Projects
+        </a>
+      </h1>
+    </header>
+
+    <p><a href="#movieshelf">MovieShelf</a> (2022.02-) <!-- raw HTML omitted --></p>
+<p><a href="#molog">Molog</a> (2022.02-) <!-- raw HTML omitted --></p>
+<p><a href="#dongne">Dongne</a> (2021.11-12) <!-- raw HTML omitted --></p>
+<p><a href="#petcare">Petcare</a> (2020.03-05) <!-- raw HTML omitted --></p>
+<p><a href="#dipex">Dipex</a> (2019.09-11) <!-- raw HTML omitted --></p>
+<h2 id="movieshelf">
+  MovieShelf
+  <a class="heading-link" href="#movieshelf">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Spring Boot 기반 웹 프로젝트</p>
+<h3 id="프로젝트-주제">
+  프로젝트 주제
+  <a class="heading-link" href="#%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8-%ec%a3%bc%ec%a0%9c">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>영화 검색 웹 페이지 제작</p>
+<h3 id="stack">
+  Stack
+  <a class="heading-link" href="#stack">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Java, Springboot, React JS</p>
+<h3 id="구현-기능">
+  구현 기능
+  <a class="heading-link" href="#%ea%b5%ac%ed%98%84-%ea%b8%b0%eb%8a%a5">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Oracle Cloud DB를 연동하여 REST API 개발
+회원 기능</p>
+<ul>
+<li>Swagger</li>
+<li>TDD</li>
+</ul>
+<!-- raw HTML omitted -->
+<h2 id="molog">
+  Molog
+  <a class="heading-link" href="#molog">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<!-- raw HTML omitted -->
+<h2 id="shopping">
+  Shopping
+  <a class="heading-link" href="#shopping">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Spring Boot 기반 웹 프로젝트</p>
+<h3 id="프로젝트-주제-1">
+  프로젝트 주제
+  <a class="heading-link" href="#%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8-%ec%a3%bc%ec%a0%9c-1">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>쇼핑몰 형태, 기능의 웹 페이지 제작</p>
+<h3 id="구현-기능-1">
+  구현 기능
+  <a class="heading-link" href="#%ea%b5%ac%ed%98%84-%ea%b8%b0%eb%8a%a5-1">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>웹페이지 내의 로그인, 회원가입 기능</li>
+<li>공지사항, 상품 게시판 CRUD</li>
+<li>주문, 장바구니 기능 구현</li>
+<li>Oracle Cloud DB를 연결 운용 경험</li>
+</ul>
+<!-- raw HTML omitted -->
+<h2 id="dongne">
+  Dongne
+  <a class="heading-link" href="#dongne">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Spring Boot 기반 웹 프로젝트</p>
+<h3 id="프로젝트-주제-및-목적">
+  프로젝트 주제 및 목적
+  <a class="heading-link" href="#%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8-%ec%a3%bc%ec%a0%9c-%eb%b0%8f-%eb%aa%a9%ec%a0%81">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>동네의 정보를 제공하고 주민 간 정보를 공유할 수 있는 종합 커뮤니티 웹 제작</p>
+<p>내가 살고 있는 동네의 정보를 한 번에 확인하고,
+사용자 간 동네의 실시간 정보를 빠르게 주고받을 수 있도록 한다.
+흩어져 있는 동네의 여러 정보들을 해당 종합 커뮤니티 웹 서비스를 통해 편리하게 접근하고,
+같은 지역내의 사용자 간의 자유로운 정보 공유를 가능하도록 한다.</p>
+<h3 id="stack-1">
+  Stack
+  <a class="heading-link" href="#stack-1">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Java, Springboot, AWS, Oracle DB, JSP, Bootstrap</p>
+<h3 id="구현-기능-2">
+  구현 기능
+  <a class="heading-link" href="#%ea%b5%ac%ed%98%84-%ea%b8%b0%eb%8a%a5-2">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>웹페이지 내의 로그인, 회원가입 기능</li>
+<li>공지사항 게시판 CRUD</li>
+<li>Naver Map API를 이용한 지도 서비스 연결 및 위·경도, 주소 변환 작업</li>
+<li>Naver Clova Chatbot을 이용한 챗봇 서비스 연결</li>
+<li>AWS EC2를 이용해 배포 진행 경험 (Naver Open API Issue 해결을 위해 현재 중단)</li>
+</ul>
+<p>-&gt; 팀 내의 수석 프로그래머로, 전체적인 기능 수정, 디자인 수정, git 병합 등
+총괄 역할 수행</p>
+<!-- raw HTML omitted -->
+<h2 id="petcare">
+  PetCare
+  <a class="heading-link" href="#petcare">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>2020-1 Capstone-Design</p>
+<h3 id="프로젝트-주제-2">
+  프로젝트 주제
+  <a class="heading-link" href="#%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8-%ec%a3%bc%ec%a0%9c-2">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>펫에 관련된 종합 정보를 제공하는 앱 어플리케이션 제작</p>
+<h3 id="stack-2">
+  stack
+  <a class="heading-link" href="#stack-2">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Java, Anfroid Studio, Firebase, GoogleCloud, JSoup</p>
+<!-- raw HTML omitted -->
+<h2 id="dipex">
+  Dipex
+  <a class="heading-link" href="#dipex">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>2019-2 Capstone-Design</p>
+<h3 id="프로젝트-주제-3">
+  프로젝트 주제
+  <a class="heading-link" href="#%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8-%ec%a3%bc%ec%a0%9c-3">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>비디오 플레이어를 포함한 간단한 웹 페이지 제작
+스크립트를 포함한 페이지
+의료 정보를 제공하는 웹 페이지 리팩토링</p>
+<h3 id="stack-3">
+  Stack
+  <a class="heading-link" href="#stack-3">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>HTML, CSS, Javascript, ReactJs, plyr, Python, Django, NGINX, MySQL, Amazon AWS</p>
+<h3 id="final-result">
+  Final Result
+  <a class="heading-link" href="#final-result">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p><a href="https://roamgom.github.io/front_dipex/">https://roamgom.github.io/front_dipex/</a></p>
+
+  </article>
+</section>
+
+  
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    ©
+    
+    2022
+     은진 
+    ·
+    
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+      
+      <script src="/js/coder.min.8fb86376a16e684af472a329aef502dbebcfab65ce264e9750d144912947c602.js" integrity="sha256-j7hjdqFuaEr0cqMprvUC2&#43;vPq2XOJk6XUNFEkSlHxgI="></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
