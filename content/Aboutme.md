@@ -8,7 +8,7 @@ aliases : ["about"]
 
 ## 김은진 
 
-Backend Developer
+Backend Developer / Java Developer
 
 사용자에게 필요한 서비스를 개발하기 위해 노력하는 백엔드 개발자 김은진입니다.
 
