@@ -30,6 +30,12 @@ Backend Developer / Java Developer
 
 2021.08.23 ~ 2021.12.03  멀티캠퍼스 온·오프 연계 AI활용 지능형 서비스 개발교육 수료
 
+### ### Volunteer experience
+
+2018 | Code Club | Education 
+
+중학생들을 대상으로 파이썬 언어에 대해 가르치는 봉사활동 경험이 있습니다.
+
 ### Skill
 
 Front-end : JavaScript, HTML/CSS <br>
