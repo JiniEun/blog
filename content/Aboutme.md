@@ -34,7 +34,7 @@ Backend Developer / Java Developer
 
 2018 | Code Club | Education 
 
-중학생들을 대상으로 파이썬 언어에 대해 가르치는 봉사활동 경험이 있습니다.
+중학생들을 대상으로 파이썬 언어에 대해 가르치는 봉사활동 경험
 
 ### Skill
 
