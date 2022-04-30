@@ -30,7 +30,7 @@ Backend Developer / Java Developer
 
 2021.08.23 ~ 2021.12.03  멀티캠퍼스 온·오프 연계 AI활용 지능형 서비스 개발교육 수료
 
-### ### Volunteer experience
+### Volunteer experience
 
 2018 | Code Club | Education 
 
