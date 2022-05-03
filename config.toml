@@ -50,6 +50,15 @@ customSCSS = []
 # Custom JS
 customJS = []
 
+[blackfriday]
+nofollowLinks = true
+noreferrerLinks = true
+plainIDAnchors = true
+extensions = [
+  "laxHtmlBlocks", # laxer block handling... let's see what this does?
+  "hardLineBreak", # newlines result in line breaks
+]
+
 [params.utterances]
 repo = "JiniEun/blog-comments" # https://utteranc.es/#heading-repository
 
