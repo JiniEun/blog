@@ -31,6 +31,8 @@ Java, Springboot, JPA, React JS, Oracle Cloud DB
 REST API 문서화 작업.
 - TDD
 
+
+
 <br><br>
 
 **Spring Boot와 JPA, Oracle Cloud DB로 구성한 백엔드와, React JS를 이용한 프론트엔드로 분리하여 개발한 팀 프로젝트를 통해 RESTful API 설계 및 개발 경험을 습득하고, TDD를 작성하며 TDD에 대한 학습과 단위 테스트 개발의 장점을 습득했습니다.**
@@ -152,6 +154,8 @@ ReactJs와 Python의 Django, MySQL 기반의 웹 프로젝트입니다.
 ### Stack
 HTML, CSS, Javascript, ReactJs, plyr, Python, Django, NGINX, MySQL, Amazon AWS
 
+![Environment](/static/images/Dipex2.png)
+
 ### 구현 기능
 
 - 대용량의 Database를 인계받아 새로운 DB 설계 경험
@@ -171,7 +175,6 @@ HTML, CSS, Javascript, ReactJs, plyr, Python, Django, NGINX, MySQL, Amazon AWS
 Webpack을 통해 Component 형태로 캡슐화하여 확장성, 결합성, 재사용성을 극대화하였고 Babel을 이용하여 JavaScript 확장 문법인 JSX 방식으로 
 JavaScript 문법과 HTML 태그를 혼용하여 작성되어 졌으며, Virtual DOM을 통해 새로운 이벤트에 대한 업데이트를 보다 간결하고 쉽게 접근할 수 있게 해줍니다. 
 ReactJS를 통해 Page 구성을 다음과 같이 Component 단위로 분리하여 이전보다 더 간편화 된 구조로 개편하였습니다.
-
 
 **frontend 구현 담당이었지만, 의료 정보를 제공 하는 기능의 웹페이지를 제작하면서 사용자의 접근이 쉽고 직관적이어야 한다는 것을 깨닫는 시간을 가졌습니다.**
 **그 후 백엔드 개발 시에도 프로젝트를 진행할 때마다 개발하고 있는 기능이 사용자에게 꼭 필요한 서비스인지, 접근성, 이용 가능성이 높은지, 사용자의 관점에서 생각하며 개발하려 노력합니다**
