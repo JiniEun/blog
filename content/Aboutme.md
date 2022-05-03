@@ -32,14 +32,14 @@ Backend Developer / Java Developer
 
 ### Volunteer experience
 
-2018 | Code Club | Education 
+2018.03 ~ 2018.06 | Code Club | Education 
 
 중학생들을 대상으로 파이썬 언어에 대해 가르치는 봉사활동 경험
 
 ### Skill
 
-Front-end : JavaScript, HTML/CSS <br>
+Back-end : Java(3), SpringBoot(3), AWS (EC2, RDS)(1) <br>
 
-Back-end : Java, SpringBoot, AWS (EC2, RDS) <br>
+Front-end : JavaScript(3), HTML/CSS(3) <br>
 
-Database : MySQL, Oracle DB (Oracle Cloud DB) <br>
+Database : MySQL(2), Oracle DB (Oracle Cloud DB)(2) <br>
