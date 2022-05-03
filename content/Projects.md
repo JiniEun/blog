@@ -154,7 +154,7 @@ ReactJs와 Python의 Django, MySQL 기반의 웹 프로젝트입니다.
 ### Stack
 HTML, CSS, Javascript, ReactJs, plyr, Python, Django, NGINX, MySQL, Amazon AWS
 
-![Environment](/static/images/Dipex2.png)
+![Environment](/images/Dipex2.png)
 
 ### 구현 기능
 
