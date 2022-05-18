@@ -18,7 +18,7 @@ aliases : ["projects"]
 
 ## Molog
 
-
+개인 블로그
 
 
 ## MovieShelf
