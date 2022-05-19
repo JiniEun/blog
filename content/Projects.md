@@ -37,7 +37,7 @@ Java, Springboot, JPA, React JS, Oracle Cloud DB
 - Swagger 적용
 REST API 문서화 작업.
 - TDD
-
+- AWS 배포 경험
 
 
 <br><br>
