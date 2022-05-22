@@ -14,7 +14,7 @@ Web Backend Developer / Java Developer
 
 ### 핵심 역량
 
-- Java SpringBoot와 OracleDB, Naver Map API를 활용한 Backend Web 개발 경험 
+- Java SpringBoot와 Oracle Cloud DB, Naver Map API를 활용한 Backend Web 개발 경험 
 - Java SpringBoot와 MySQL을 활용한 Backend Web 개발 경험
 - AWS의 EC2와 RDS를 활용한 클라우드 서버 구축 및 배포 경험
 - JavaScript와 React를 사용하는 Web 개발 경험
