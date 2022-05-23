@@ -18,7 +18,9 @@ aliases : ["projects"]
 
 ## Molog
 
-개인 블로그
+Kotlin, JPA, MySQL 기반 웹 프로젝트.
+
+개인 블로그 주제의 웹 페이지입니다.
 
 
 ## MovieShelf
