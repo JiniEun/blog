@@ -25,12 +25,12 @@ Kotlin, JPA, MySQL 기반 웹 프로젝트.
 
 ## MovieShelf
 
-Java Spring Boot, JPA, React, Oracle Cloud DB 기반 웹 프로젝트.
+Java Spring Boot, Spring JPA, Oracle Cloud DB, React 기반 웹 프로젝트.
 사용자들간에 영화 정보와 리뷰를 공유하는 웹 페이지입니다.
 
 ### Stack
 
-Java, Springboot, JPA, React JS, Oracle Cloud DB
+Java, Spring Boot, Spring JPA, Oracle Cloud DB, React JS, AWS
 
 ### 구현 기능
 
@@ -112,7 +112,7 @@ Naver Map API, AWS RDS 기반 웹 프로젝트입니다.
 
 ### Stack
 
-Java, Springboot, AWS, Oracle DB, JSP, Bootstrap
+Java, Spring Boot, Oracle DB, JSP, Bootstrap, AWS
 
 ### 구현 기능
 
@@ -120,6 +120,7 @@ Java, Springboot, AWS, Oracle DB, JSP, Bootstrap
 - 공지사항 게시판 CRUD
 - Naver Map API를 이용한 지도 서비스 연결 및 위·경도, 주소 변환 작업
 - Naver Clova Chatbot을 이용한 챗봇 서비스 연결
+- AWS RDS Oracle DB 연동
 - AWS EC2를 이용해 배포 진행 경험 (Naver Open API Issue 해결을 위해 현재 중단) 
 
 ➡️ 팀 내의 수석 프로그래머로, 전체적인 기능 수정, 디자인 수정, git 병합 등 총괄 역할 수행
