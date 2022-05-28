@@ -195,6 +195,12 @@ ReactJS를 통해 Page 구성을 다음과 같이 Component 단위로 분리하�
 
 ### React 장단점
 
+#### React 장점
+
+단순한 컴포넌트 정의의 용이함
+
+
+
 <br>
 
 ### Final Result
